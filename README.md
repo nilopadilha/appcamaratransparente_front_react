@@ -1,81 +1,67 @@
 # 🏛️ Protótipo de Portal Governamental Municipal - Frontend
 
-Este é um protótipo de portal moderno e funcional para **Prefeituras ou Câmaras Municipais**. Desenvolvido com foco em transparência e cidadania, o sistema integra um portal da transparência robusto com uma interface intuitiva e acessível.
+Este é um protótipo de portal moderno e funcional para **Prefeituras ou Câmaras Municipais**. Desenvolvido com foco em transparência e cidadania, o sistema integra um portal da transparência robusto com uma interface intuitiva e acessível, seguindo as melhores práticas de UI/UX para o setor público.
 
 ---
 
 ## 🚀 Visão Geral
 
-Este projeto serve como um modelo (white-label) para portais do Poder Executivo ou Legislativo Municipal. Ele foi projetado com foco em **UI/UX de alto nível**, permitindo que cidadãos acessem informações governamentais de forma clara, rápida e inclusiva.
+Este projeto é um modelo **white-label** projetado para atender tanto o Poder Executivo quanto o Legislativo Municipal. O foco principal é a **Experiência do Cidadão**, transformando dados governamentais complexos em informações visuais claras e interativas.
 
 ---
 
-## ✨ Principais Funcionalidades
+## ✨ Funcionalidades Implementadas
 
-### ♿ Acessibilidade Universal (Padrão e-MAG)
-*   **Barra de Acessibilidade:** Ferramentas para ajuste de fonte e alto contraste.
-*   **Compatibilidade Libras:** Integração com o widget do VLibras.
-*   **Semântica Robusta:** Estrutura otimizada para leitores de tela.
+### ♿ Acessibilidade e Inclusão (Prioridade Máxima)
+*   **Barra de Acessibilidade Persistente:** Localizada no topo, oferece:
+    *   Controle de tamanho de fonte (Aumentar/Diminuir).
+    *   Alternância para **Alto Contraste**.
+    *   Link direto para o **VLibras**.
+*   **Navegação por Teclado:** Foco visual (`:focus-visible`) altamente perceptível (amarelo vibrante) em todos os elementos interativos.
+*   **Semântica HTML5:** Uso rigoroso de tags semânticas para total compatibilidade com leitores de tela.
 
-### 🏠 Home Page Modular
-*   **Portal de Notícias:** Grid de notícias performático e categorizado.
-*   **Acompanhamento Legislativo/Executivo:** Linha do tempo para tramitação de projetos e atos oficiais.
-*   **Transmissão ao Vivo:** Área dedicada para acompanhamento de sessões ou pronunciamentos.
-*   **Galeria de Representantes:** Carrossel interativo para parlamentares ou secretariado.
-*   **Central de Serviços:** Painel de acesso rápido a diversos portais (Ouvidoria, Transparência, etc.).
+### 🧭 Navegação Avançada
+*   **Mega Menu Categorizado:** Menu superior com dropdowns organizados por áreas (Institucional, Processo Legislativo, Transparência).
+*   **Status de Transmissão:** Indicador de "Ao Vivo" pulsante para sessões e pronunciamentos.
+*   **Barra de Pesquisa Global:** Integrada ao cabeçalho para localização rápida de conteúdos.
 
-### 📊 Portal da Transparência Integrado
-*   **Busca & Filtros:** Localização rápida de dados financeiros, licitações e RH.
-*   **Gestão de Documentos:** Interface organizada para visualização e download de arquivos públicos.
+### 🏠 Home Page Dinâmica
+*   **Seção de Notícias Otimizada:** Grid 2/3 com destaques, categorias (badges) e performance aprimorada com `next/image`.
+*   **Linha do Tempo Legislativa:** Visualização clara do progresso de projetos de lei e atos oficiais.
+*   **Carrossel de Representantes:** Galeria interativa com efeitos de hover, biografia rápida e navegação por setas.
+*   **Central de Acesso Rápido:** Grade de serviços colorida para fácil identificação visual de portais externos.
+*   **Canal do Município:** Integração de vídeo institucional para transparência ativa.
+
+### 📊 Portal da Transparência de Nova Geração
+*   **Dashboard de Indicadores:** Cards analíticos com Receita, Orçamento e Despesas (com variação percentual).
+*   **Busca e Filtros Avançados:** Filtragem por palavra-chave, categoria e ano (2022-2025).
+*   **Transparência de Arquivos:** Exibição clara de formato (PDF, XLSX) e tamanho do arquivo antes do download.
 
 ---
 
 ## 🛠️ Stack Tecnológica
 
-*   **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+*   **Framework:** [Next.js 15](https://nextjs.org/) (Turbopack)
 *   **Biblioteca:** [React 19](https://react.dev/)
 *   **Estilização:** [Tailwind CSS 4](https://tailwindcss.com/)
+*   **Iconografia:** [Lucide React](https://lucide.dev/)
+*   **Animações:** [Tailwind Animate](https://github.com/jamiebuilds/tailwind-animate)
 *   **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
-*   **Ícones:** [Lucide React](https://lucide.dev/)
-*   **Carrossel:** [Embla Carousel](https://www.embla-carousel.com/)
 
 ---
 
 ## ⚙️ Como Rodar o Projeto
 
-### Pré-requisitos
-*   Node.js (v18+)
-*   npm ou yarn
-
-### Instalação
-1.  Clone o repositório:
-    ```bash
-    git clone https://github.com/nilopadilha/appcamaratransparente_front_react.git
-    ```
-2.  Instale as dependências:
-    ```bash
-    npm install
-    ```
-3.  Inicie o servidor de desenvolvimento:
-    ```bash
-    npm run dev
-    ```
-4.  Acesse [http://localhost:3000](http://localhost:3000) no seu navegador.
+1.  **Instalação:** `npm install`
+2.  **Desenvolvimento:** `npm run dev`
+3.  **Build:** `npm run build`
+4.  **Acesso:** `http://localhost:3000`
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📄 Documentação Técnica
 
-*   `src/app`: Rotas e layouts da aplicação.
-*   `src/components`: Componentes reutilizáveis (Navbar, Footer, Carousel, etc.).
-*   `src/components/accessibility`: Lógica e interface de ferramentas de inclusão.
-*   `public`: Ativos estáticos (imagens e ícones).
+Para detalhes sobre cada commit e evolução técnica, consulte o [CHANGELOG.md](./CHANGELOG.md).
 
 ---
-
-## 📄 Documentação de Mudanças
-
-Para um histórico detalhado de todas as implementações técnicas, consulte o arquivo [CHANGELOG.md](./CHANGELOG.md).
-
----
-*Desenvolvido com foco na transparência pública e cidadania digital.*
+*Este protótipo demonstra o potencial de transparência ativa e cidadania digital para a gestão pública moderna.*

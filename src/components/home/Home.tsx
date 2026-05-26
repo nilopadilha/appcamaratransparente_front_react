@@ -13,6 +13,7 @@ import {
   UsersRound,
   Calendar,
   ChevronRight,
+  ArrowRight,
 } from 'lucide-react';
 
 const Home = () => {
