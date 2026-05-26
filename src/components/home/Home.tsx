@@ -66,6 +66,8 @@ const Home = () => {
               src="/bignews.png" 
               alt="Destaque" 
               fill 
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
               className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent z-10" />
