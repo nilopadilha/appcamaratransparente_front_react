@@ -57,7 +57,7 @@ const Home = () => {
   return (
     <div className="flex flex-col bg-white items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
       <Navbar />
-      <main className="flex flex-col gap-[48px] mt-8 w-full max-w-7xl px-4 mb-12">
+      <main id="main-content" className="flex flex-col gap-[48px] mt-8 w-full max-w-7xl px-4 mb-12">
         {/* Hero Section: News & Portal */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main News */}
