@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from 'react';
 import Navbar from '../navbar/Navbar';
-import { useRouter } from 'next/navigation';
 import { Download, ExternalLink, Search, Filter, FileText, ChevronRight, TrendingUp, TrendingDown, DollarSign, Calendar } from 'lucide-react';
 import Footer from '../footer/Footer';
 
@@ -42,12 +41,17 @@ const functions = [
     }
 ];
 
+interface ContentItem {
+  label: string;
+  format: string;
+  size: string;
+}
+
 const TransparencyScreen = () => {
   const [openDropdown, setOpenDropdown] = useState<Record<string, boolean>>({});
   const [searchTerm, setSearchTerm] = useState("");
   const [filterCategory, setFilterCategory] = useState("Todos");
   const [filterYear, setFilterYear] = useState("2025");
-  const router = useRouter();
 
   const categories = ["Todos", ...Array.from(new Set(functions.map(f => f.category)))];
   const years = ["2025", "2024", "2023", "2022"];
@@ -190,7 +194,7 @@ const TransparencyScreen = () => {
 
                             {isOpen && isDropdown && Array.isArray(fn.content) && (
                                 <div className="bg-zinc-50 border-t border-zinc-100 animate-in fade-in slide-in-from-top-2 duration-300">
-                                    {fn.content.map((item: any, i) => (
+                                    {fn.content.map((item: ContentItem, i) => (
                                         <a
                                             key={i}
                                             href="#"

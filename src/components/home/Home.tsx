@@ -46,12 +46,12 @@ const Home = () => {
   ];
 
   const quickAccess = [
-    { icon: <BookUser size={32} />, title: 'Memorial', desc: 'História do Legislativo', color: 'bg-blue-50 text-blue-600' },
-    { icon: <FileSearch2 size={32} />, title: 'Transparência', desc: 'Dados e contas públicas', color: 'bg-green-50 text-green-600' },
-    { icon: <UsersRound size={32} />, title: 'Servidor', desc: 'Portal do funcionário', color: 'bg-purple-50 text-purple-600' },
-    { icon: <BookOpen size={32} />, title: 'Escola', desc: 'Cursos e cidadania', color: 'bg-yellow-50 text-yellow-600' },
-    { icon: <MessagesSquare size={32} />, title: 'Ouvidoria', desc: 'Denúncias e sugestões', color: 'bg-red-50 text-red-600' },
-    { icon: <Scale size={32} />, title: 'Sistemas', desc: 'Apoio Legislativo', color: 'bg-zinc-50 text-zinc-600' },
+    { icon: BookUser, title: 'Memorial', desc: 'História do Legislativo', color: 'bg-blue-50 text-blue-600' },
+    { icon: FileSearch2, title: 'Transparência', desc: 'Dados e contas públicas', color: 'bg-green-50 text-green-600' },
+    { icon: UsersRound, title: 'Servidor', desc: 'Portal do funcionário', color: 'bg-purple-50 text-purple-600' },
+    { icon: BookOpen, title: 'Escola', desc: 'Cursos e cidadania', color: 'bg-yellow-50 text-yellow-600' },
+    { icon: MessagesSquare, title: 'Ouvidoria', desc: 'Denúncias e sugestões', color: 'bg-red-50 text-red-600' },
+    { icon: Scale, title: 'Sistemas', desc: 'Apoio Legislativo', color: 'bg-zinc-50 text-zinc-600' },
   ];
 
   return (
@@ -165,7 +165,7 @@ const Home = () => {
                     {quickAccess.map((item, idx) => (
                         <div key={idx} className="bg-white/5 hover:bg-white/10 p-4 rounded-xl transition-all cursor-pointer group border border-white/5">
                             <div className={`${item.color} w-10 h-10 rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition-transform shadow-lg`}>
-                                {React.cloneElement(item.icon as React.ReactElement, { size: 20 })}
+                                <item.icon size={20} />
                             </div>
                             <h3 className="font-bold text-sm mb-1">{item.title}</h3>
                             <p className="text-[10px] text-zinc-500 line-clamp-1">{item.desc}</p>
