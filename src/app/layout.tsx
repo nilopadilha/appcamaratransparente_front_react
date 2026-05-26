@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Câmara Municipal de Natal - Portal da Transparência",
-  description: "Portal oficial da Câmara Municipal de Natal para transparência e serviços ao cidadão.",
+  title: "Portal Municipal - Transparência e Cidadania",
+  description: "Protótipo de portal oficial para transparência e serviços ao cidadão em âmbito municipal.",
 };
 
 export default function RootLayout({

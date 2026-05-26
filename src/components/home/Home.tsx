@@ -111,8 +111,8 @@ const Home = () => {
         {/* Video Section */}
         <div className="w-full bg-zinc-100 rounded-2xl p-6 flex flex-col lg:flex-row gap-8 items-center shadow-inner">
           <div className="flex-1">
-            <h2 className="text-2xl font-bold text-[var(--primary)] mb-4 border-l-4 border-yellow-500 pl-4 uppercase tracking-tight">TV Câmara Natal</h2>
-            <p className="text-zinc-600 mb-6 text-lg leading-relaxed">Acompanhe ao vivo as sessões plenárias, audiências públicas e toda a programação da nossa TV legislativa.</p>
+            <h2 className="text-2xl font-bold text-[var(--primary)] mb-4 border-l-4 border-yellow-500 pl-4 uppercase tracking-tight">Canal do Município</h2>
+            <p className="text-zinc-600 mb-6 text-lg leading-relaxed">Acompanhe ao vivo as sessões, audiências públicas e toda a programação institucional do nosso município.</p>
             <button className="bg-[var(--primary)] text-white px-8 py-3 rounded-full font-bold hover:bg-blue-800 transition-all flex items-center gap-3 shadow-lg hover:shadow-blue-200/50">
               Assistir ao vivo
               <ChevronRight size={18} />
@@ -137,8 +137,8 @@ const Home = () => {
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center justify-between mb-10 gap-4">
               <div className="text-center md:text-left">
-                <h2 className="text-4xl font-black text-white uppercase tracking-tighter">Nossos Vereadores</h2>
-                <p className="text-blue-100 mt-2 font-medium">Conheça os representantes do povo na Câmara Municipal.</p>
+                <h2 className="text-4xl font-black text-white uppercase tracking-tighter">Nossos Representantes</h2>
+                <p className="text-blue-100 mt-2 font-medium">Conheça os representantes do povo no âmbito municipal.</p>
               </div>
               <button type="button" className="bg-white text-[var(--primary)] px-6 py-2 rounded-full font-bold hover:bg-yellow-400 hover:text-black transition-all shadow-lg">
                 Ver todos os perfis

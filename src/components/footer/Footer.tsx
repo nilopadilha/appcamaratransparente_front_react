@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 mt-8 pt-4 border-t border-gray-200 text-center text-zinc-400 text-xs">
-          © {new Date().getFullYear()} Câmara Municipal de Natal. Todos os direitos reservados.
+          © {new Date().getFullYear()} Portal Municipal. Protótipo para Transparência Pública.
         </div>
       </footer>      
     );

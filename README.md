@@ -1,34 +1,32 @@
-# 🏛️ Portal da Câmara Municipal de Natal - Frontend
+# 🏛️ Protótipo de Portal Governamental Municipal - Frontend
 
-Bem-vindo ao repositório frontend do novo portal da **Câmara Municipal de Natal (CMN)**. Este projeto foi desenvolvido utilizando as tecnologias mais modernas do ecossistema React para oferecer transparência, acessibilidade e agilidade ao cidadão natalense.
+Este é um protótipo de portal moderno e funcional para **Prefeituras ou Câmaras Municipais**. Desenvolvido com foco em transparência e cidadania, o sistema integra um portal da transparência robusto com uma interface intuitiva e acessível.
 
 ---
 
 ## 🚀 Visão Geral
 
-Este portal serve como o principal canal de comunicação entre o Poder Legislativo e a população. Ele foi projetado com foco em **UI/UX de alto nível**, garantindo que informações complexas (como processos legislativos e dados financeiros) sejam acessíveis e fáceis de entender.
+Este projeto serve como um modelo (white-label) para portais do Poder Executivo ou Legislativo Municipal. Ele foi projetado com foco em **UI/UX de alto nível**, permitindo que cidadãos acessem informações governamentais de forma clara, rápida e inclusiva.
 
 ---
 
 ## ✨ Principais Funcionalidades
 
-### ♿ Acessibilidade (Padrão e-MAG)
-*   **Barra de Acessibilidade:** Controles persistentes para aumento/diminuição de fonte e reset para o tamanho padrão.
-*   **Alto Contraste:** Modo de visualização otimizado para usuários com baixa visão ou fotossensibilidade.
-*   **VLibras:** Integração com a ferramenta de tradução para a Língua Brasileira de Sinais.
-*   **Semântica Robusta:** Estrutura HTML5 pensada para total compatibilidade com leitores de tela.
+### ♿ Acessibilidade Universal (Padrão e-MAG)
+*   **Barra de Acessibilidade:** Ferramentas para ajuste de fonte e alto contraste.
+*   **Compatibilidade Libras:** Integração com o widget do VLibras.
+*   **Semântica Robusta:** Estrutura otimizada para leitores de tela.
 
-### 🏠 Home Page Dinâmica
-*   **Destaques de Notícias:** Grid de notícias otimizado com `next/image` para performance máxima e categorias coloridas para rápida identificação.
-*   **Linha do Tempo Legislativa:** Componente de acompanhamento visual de tramitação de projetos de lei (Simulação SAPL).
-*   **TV Câmara Natal:** Integração de player de vídeo para acompanhamento de sessões ao vivo e audiências.
-*   **Carrossel de Vereadores:** Interface interativa com fotos dos parlamentares, partidos e acesso a perfis detalhados.
-*   **Painel de Acesso Rápido:** Atalhos intuitivos para Memorial, Ouvidoria, Escola do Legislativo e Portal do Servidor.
+### 🏠 Home Page Modular
+*   **Portal de Notícias:** Grid de notícias performático e categorizado.
+*   **Acompanhamento Legislativo/Executivo:** Linha do tempo para tramitação de projetos e atos oficiais.
+*   **Transmissão ao Vivo:** Área dedicada para acompanhamento de sessões ou pronunciamentos.
+*   **Galeria de Representantes:** Carrossel interativo para parlamentares ou secretariado.
+*   **Central de Serviços:** Painel de acesso rápido a diversos portais (Ouvidoria, Transparência, etc.).
 
-### 📊 Portal da Transparência Funcional
-*   **Busca em Tempo Real:** Localize documentos e relatórios instantaneamente através da barra de pesquisa.
-*   **Filtros de Categoria:** Navegue facilmente por áreas como Finanças, Recursos Humanos e Administrativo.
-*   **Central de Downloads:** Cards intuitivos para acesso a Editais, Contratos e Atas.
+### 📊 Portal da Transparência Integrado
+*   **Busca & Filtros:** Localização rápida de dados financeiros, licitações e RH.
+*   **Gestão de Documentos:** Interface organizada para visualização e download de arquivos públicos.
 
 ---
 

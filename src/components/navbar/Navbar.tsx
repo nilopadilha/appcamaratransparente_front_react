@@ -9,8 +9,8 @@ const Navbar: React.FC = () => {
           {/* Logo (esquerda) */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold hover:text-blue-100 transition-colors flex items-center gap-2">
-              <span className="bg-white text-[var(--primary)] px-2 py-1 rounded">CMN</span>
-              <span className="hidden sm:inline">Câmara Natal</span>
+              <span className="bg-white text-[var(--primary)] px-2 py-1 rounded">GOV</span>
+              <span className="hidden sm:inline">Portal Municipal</span>
             </Link>
           </div>
       
