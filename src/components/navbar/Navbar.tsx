@@ -4,11 +4,14 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
     return (
-      <nav className="text-white w-full h-16 fixed top-0 z-100">
-        <div className="max-w-7xl mx-auto flex items-center justify-between h-16">
+      <nav className="text-white w-full h-16 sticky top-0 z-[100] bg-[var(--primary)] shadow-md">
+        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
           {/* Logo (esquerda) */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-3xl font-bold hover:text-blue-300">GOVT</Link>
+            <Link href="/" className="text-2xl font-bold hover:text-blue-100 transition-colors flex items-center gap-2">
+              <span className="bg-white text-[var(--primary)] px-2 py-1 rounded">CMN</span>
+              <span className="hidden sm:inline">Câmara Natal</span>
+            </Link>
           </div>
       
           {/* Navigation Links (centro) */}
