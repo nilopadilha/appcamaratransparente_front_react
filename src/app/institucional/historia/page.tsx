@@ -52,7 +52,7 @@ export default function HistoryPage() {
               <Building2 size={64} />
             </div>
             <p className="flex-1 text-zinc-600 leading-relaxed italic">
-              "O nosso brasão representa a união, a força do povo e a riqueza das nossas terras. Cada elemento foi pensado para honrar as gerações passadas e inspirar o futuro próspero que construímos juntos."
+              &quot;O nosso brasão representa a união, a força do povo e a riqueza das nossas terras. Cada elemento foi pensado para honrar as gerações passadas e inspirar o futuro próspero que construímos juntos.&quot;
             </p>
           </div>
         </section>
