@@ -20,6 +20,7 @@ const Navbar: React.FC = () => {
         { name: 'Atas e Pautas', icon: <FileText size={16} />, href: '/processo/projetos' },
       ],
       transparencia: [
+        { name: 'Dados do Município', icon: <PieChart size={16} />, href: '/dashboard-municipio' },
         { name: 'Contas Públicas', icon: <PieChart size={16} />, href: '/transparencia' },
         { name: 'Licitações', icon: <Search size={16} />, href: '/transparencia' },
         { name: 'Ouvidoria', icon: <MessageSquare size={16} />, href: '/ouvidoria' },

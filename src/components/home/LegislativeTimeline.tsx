@@ -2,8 +2,8 @@ import React from 'react';
 import { CheckCircle2, Clock, FileText, ArrowRight } from 'lucide-react';
 
 const steps = [
-  { status: 'completed', title: 'Protocolo', date: '10/05/2025', desc: 'Projeto de Lei nº 123/2025 protocolado.' },
-  { status: 'completed', title: 'Comissão de Justiça', date: '22/05/2025', desc: 'Parecer favorável aprovado por unanimidade.' },
+  { status: 'completed', title: 'Protocolo', date: '10/05/2026', desc: 'Projeto de Lei nº 123/2026 protocolado.' },
+  { status: 'completed', title: 'Comissão de Justiça', date: '22/05/2026', desc: 'Parecer favorável aprovado por unanimidade.' },
   { status: 'current', title: 'Votação em Plenário', date: 'Hoje', desc: 'Incluído na ordem do dia para primeira votação.' },
   { status: 'upcoming', title: 'Sanção do Prefeito', date: '--/--', desc: 'Aguardando resultado da votação.' },
 ];
