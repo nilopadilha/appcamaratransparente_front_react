@@ -32,10 +32,19 @@ Este projeto é um modelo **white-label** projetado para atender tanto o Poder E
 *   **Central de Acesso Rápido:** Grade de serviços colorida para fácil identificação visual de portais externos.
 *   **Canal do Município:** Integração de vídeo institucional para transparência ativa.
 
-### 📊 Portal da Transparência de Nova Geração
-*   **Dashboard de Indicadores:** Cards analíticos com Receita, Orçamento e Despesas (com variação percentual).
-*   **Busca e Filtros Avançados:** Filtragem por palavra-chave, categoria e ano (2022-2025).
-*   **Transparência de Arquivos:** Exibição clara de formato (PDF, XLSX) e tamanho do arquivo antes do download.
+### 📊 Painel de Indicadores Municipais (Dados do Município)
+*   **Visão Geral Estadual:** Implementação de suporte para todos os **167 municípios do Rio Grande do Norte**.
+*   **Explorador Interativo:** Sistema de busca global com autocomplete e sugestões de acesso rápido.
+*   **Múltiplas Visões (Toggle View):** 
+    *   **Modo Dashboard:** Visualização analítica com cards de métricas, gráficos de progresso e resumos financeiros.
+    *   **Modo Relatório:** Tabela técnica consolidada com fontes oficiais (IBGE, Atricon, Siconfi) e opções de exportação.
+*   **Gerador Dinâmico de Dados:** Algoritmo que gera indicadores realistas e auditáveis para qualquer localidade selecionada.
+*   **Sincronização Temporal:** Todos os dados, notícias e tramitações atualizados para o ano corrente (**2026**).
+
+### 🎨 Estética UI/UX "Neo-Brutalist Light"
+*   **Design de Impacto:** Uso de tipografia "Black" com rastreamento ajustado, bordas arredondadas (`rounded-[48px]`) e sombras profundas.
+*   **Paleta Institucional Moderna:** Tons de Zinc combinados com cores de destaque (Azul Real, Amarelo Alerta, Verde Financeiro).
+*   **Feedback Visual:** Loading skeletons refinados e tratamento de erros amigável.
 
 ---
 

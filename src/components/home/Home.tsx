@@ -19,27 +19,27 @@ import {
 const Home = () => {
   const newsData = [
     {
-      date: '18/07/2025',
+      date: '28/05/2026',
       category: 'Legislativo',
       title: 'Câmara Municipal Aprova Projeto de Transporte Gratuito para Estudantes',
     },
     {
-      date: '17/07/2025',
+      date: '27/05/2026',
       category: 'Fiscalização',
       title: 'Vereadores Discutem Criação de Comissão Especial para Fiscalizar Obras Paradas',
     },
     {
-      date: '16/07/2025',
+      date: '26/05/2026',
       category: 'Urbanismo',
       title: 'Legislativo Municipal Aprova Revisão no Plano Diretor da Cidade',
     },
     {
-      date: '15/07/2025',
+      date: '25/05/2026',
       category: 'Debate',
       title: 'Projeto de Lei para Redução de Cargos Comissionados Gera Debate Acalorado',
     },
     {
-      date: '14/07/2025',
+      date: '24/05/2026',
       category: 'Sustentabilidade',
       title: 'Câmara Cria Frente Parlamentar de Sustentabilidade Urbana',
     },
@@ -77,7 +77,7 @@ const Home = () => {
               </span>
               <div className="flex items-center gap-2 text-zinc-300 text-sm mb-2">
                 <Calendar size={14} />
-                <span>19 de Julho, 2025</span>
+                <span>29 de Maio, 2026</span>
               </div>
               <h1 className="text-3xl font-bold leading-tight hover:text-yellow-400 transition-colors cursor-pointer">
                 Polícia Militar Realiza Palestra Educativa sobre Prevenção à Violência e Cidadania
